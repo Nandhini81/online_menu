@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/Navbar.css";
+import "/src/styles/Navbar.css";
 
 function Navbar({ categories, onCategorySelect, onSortSelect }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
